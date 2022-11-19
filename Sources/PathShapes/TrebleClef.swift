@@ -56,8 +56,10 @@ struct TrebleClef_Previews: PreviewProvider {
             .background(Rectangle().stroke())
 
         TrebleClef()
-            .stroke()
+            .stroke(.black)
             .frame(width: 256, height: 256)
             .background(Rectangle().stroke())
+            .padding()
+            .background(Rectangle().fill(.white))
     }
 }
