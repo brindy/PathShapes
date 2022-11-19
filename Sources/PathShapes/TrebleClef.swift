@@ -51,14 +51,9 @@ public struct TrebleClef: Shape {
 struct TrebleClef_Previews: PreviewProvider {
     static var previews: some View {
         TrebleClef()
-            .stroke()
-            .frame(width: 16, height: 16)
-            .background(Rectangle().stroke())
-
-        TrebleClef()
             .stroke(.black)
             .frame(width: 256, height: 256)
-            .background(Rectangle().stroke())
+            .background(Rectangle().stroke(.black))
             .padding()
             .background(Rectangle().fill(.white))
     }
