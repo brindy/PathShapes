@@ -1,6 +1,6 @@
 # PathShapes
 
-A collection of SwiftUI Shape implementations for iOS 15 and macOS 12 and above.
+A collection of SwiftUI Shape implementations for iOS 15 and macOS 12 and above.  You can see examples [here](Examples/README.md).
 
 ## Contributing
 
